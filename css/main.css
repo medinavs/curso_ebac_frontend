@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f5f5;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a{
+color: #f5f5f5;
+text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+
+}
+
+
+section .artigos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos article img {
+    /* height: 180px; */
+    width: 100%;
+}
+
+
+.artigos article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.artigos article {
+    margin-bottom: 16px;
+}
+
+.artigos article h3 {
+margin-top: 8px;
+margin-bottom: 8px;
+}
+
+.artigos article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.artigos article a:hover {
+text-decoration: underline;
+}
+
+
+.artigos article p,
+.artigos article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.artigos article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+background-color: rgba(173, 216, 230, 0.5);
+}
+
+#esportes .artigos article a {
+    background-color: rgba(1, 216, 230, 0.4);
+}
+
+#economia {
+    background-color: rgb(236, 236, 101);
+}
+
+#economia .artigos a {
+    background-color: rgb(236, 185, 90);
+}
+
+
+/* seção da tarefa (Crime) */
+
+
+
+#crime .tarefa a {
+    background-color: rgb(141, 240, 146);
+}
+
+header .tarefa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tarefa {
+    margin: 0 auto;
+    width: 1366px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.violencia article img {
+    width: 100%;
+}
+
+.violencia article {
+    width: 30%;
+}
+
+section h2,
+.tarefa article {
+    margin-bottom: 16px;
+}
+
+.violencia article h3 {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+
+#crime {
+    background-color: rgb(170, 166, 166);
+    padding: 0; 
+    margin: 0; 
+}
+
+.tarefa article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.tarefa article a:hover {
+    text-decoration: underline;
+    }
+
+    .violencia article h3 {
+        font-size: 24px;
+    }
+
+    .violencia article p,
+.violencia article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.violencia {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#crime .violencia article img {
+    height: 200px; 
+    object-fit: cover; 
+}
+
+
+/*próxima seção */ 
+
+#tecnologia .tec a {
+    background-color: rgb(141, 240, 146);
+}
+
+header .tec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tec {
+    margin: 0 auto;
+    width: 1366px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tecnolo article img {
+    width: 100%;
+}
+
+.tecnolo article {
+    width: 30%;
+}
+
+section h2,
+.tec article {
+    margin-bottom: 16px;
+}
+
+.tecnolo article h3 {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+
+#tecnologia {
+    background-color: burlywood;
+    padding: 0; 
+    margin: 0; 
+}
+
+.tec article a {
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.tec article a:hover {
+    text-decoration: underline;
+    }
+
+    .tecnolo article h3 {
+        font-size: 24px;
+    }
+
+    .tecnolo article p,
+.violencia article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.tecnolo {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#tecnologia .tecnolo article img {
+    height: 200px; 
+    object-fit: cover; 
+}
